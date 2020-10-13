@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #F8F8F8;
+}
+
+p, button, input, a {
+  font-family: 'Poppins', sans-serif;
+  color: #161616;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Spectral', serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1480px;
+  width: 100%;
+}
+
+@media (max-width: 1480px){
+  .container {
+    max-width: 1080px;
+  }
+}
+
+@media (max-width: 1080px){
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 720px){
+  .container {
+    max-width: 320px;
+  }
+}
