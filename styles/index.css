@@ -84,16 +84,17 @@ header .header-right a{
   margin-bottom: 20px;
 }
 
-.card-container__left .card-horizontal .card-content button {
+.card-container__left .card-horizontal .card-content a {
   background-color: #161616;
   color: #FFFFFF;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 220px;
 }
 
-.card-container__left .card-horizontal .card-content button i {
+.card-container__left .card-horizontal .card-content a i {
   margin-left: 10px;
 }
 
@@ -129,16 +130,17 @@ header .header-right a{
   margin-bottom: 20px;
 }
 
-.card-container__right .card-vertical .card-content button {
+.card-container__right .card-vertical .card-content a {
   background-color: #161616;
   color: #FFFFFF;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 220px;
 }
 
-.card-container__right .card-vertical .card-content button i {
+.card-container__right .card-vertical .card-content a i {
   margin-left: 10px;
 }
 
@@ -215,7 +217,7 @@ footer p {
     padding: 40px;
   }
   
-  .card-container__right .card-vertical .card-content button {
+  .card-container__right .card-vertical .card-content a {
     background-color: #161616;
     color: #FFFFFF;
     padding: 10px;
@@ -224,7 +226,7 @@ footer p {
     justify-content: space-between;
   }
   
-  .card-container__right .card-vertical .card-content button i {
+  .card-container__right .card-vertical .card-content a i {
     margin-left: 10px;
   }
 }
