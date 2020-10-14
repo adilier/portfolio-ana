@@ -29,8 +29,13 @@ header .header-right a{
 }
 
 .background-yellow a {
-  font-size: 14px;
+  font-size: 16px;
 }
+
+.background-yellow i {
+  margin-right: 5px;
+}
+
 
 .background-yellow h2 {
   font-size: 48px;
